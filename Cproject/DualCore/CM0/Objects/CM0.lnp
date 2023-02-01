@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\objects\cm0_main.o"
+".\objects\samsat_queue.o"
+".\objects\lm75.o"
+".\objects\scu_lpc43xx.o"
+".\objects\startup_lpc43xx_m0.o"
+".\objects\system_lpc43xx_m0.o"
+--library_type=microlib --strict --scatter ".\Objects\CM0.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CM0.map" -o .\Objects\CM0.axf

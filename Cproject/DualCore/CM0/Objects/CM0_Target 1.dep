@@ -1,0 +1,55 @@
+Dependencies for Project 'CM0', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\cm0_main.c)(0x63D8F5C8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -fno-function-sections -w -I ../Drivers -I ../../DeveloperKitLPC4357-I./RTE/Device/LPC4357_Cortex-M0-I./RTE/_Target_1-IC:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/Device/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DCORE_M0 -D_RTE_ -DCORE_M0 -DDEV_KIT_I2C-o ./objects/cm0_main.o -MD)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\LPC43xx.h)(0x54C0CFDC)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354010)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\system_LPC43xx.h)(0x5703929E)
+I (RTE\_Target_1\RTE_Components.h)(0x6387317B)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\RTE_Driver\SCU_LPC43xx.h)(0x5E2FAED6)
+I (RTE\Device\LPC4357_Cortex-M0\RTE_Device.h)(0x63874B51)
+I (..\Drivers\samsat_queue.h)(0x63514B26)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x622F4FB5)
+I (..\Drivers\samsat_ipc_config.h)(0x63514B34)
+I (..\Drivers\message_types.h)(0x635695E6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60354014)
+F (..\Drivers\samsat_queue.c)(0x63514B26)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -fno-function-sections -w -I ../Drivers -I ../../DeveloperKitLPC4357-I./RTE/Device/LPC4357_Cortex-M0-I./RTE/_Target_1-IC:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/Device/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DCORE_M0 -D_RTE_ -DCORE_M0 -DDEV_KIT_I2C-o ./objects/samsat_queue.o -MD)
+I (..\Drivers\samsat_queue.h)(0x63514B26)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x622F4FB5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354010)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\LPC43xx.h)(0x54C0CFDC)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\system_LPC43xx.h)(0x5703929E)
+I (..\Drivers\samsat_ipc_config.h)(0x63514B34)
+F (..\Drivers\samsat_ipc_config.h)(0x63514B34)()
+F (..\Drivers\samsat_queue.h)(0x63514B26)()
+F (..\Drivers\message_types.h)(0x635695E6)()
+F (..\..\DeveloperKitLPC4357\Developer_Kit_LPC4357_rev_C.c)(0x6356430A)()
+F (..\..\DeveloperKitLPC4357\LM75.c)(0x612CD45E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -fno-function-sections -w -I ../Drivers -I ../../DeveloperKitLPC4357-I./RTE/Device/LPC4357_Cortex-M0-I./RTE/_Target_1-IC:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/Device/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DCORE_M0 -D_RTE_ -DCORE_M0 -DDEV_KIT_I2C-o ./objects/lm75.o -MD)
+F (..\Drivers\samsat_i2c.c)(0x63514B34)()
+F (..\Drivers\samsat_i2c.h)(0x63514B34)()
+F (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\RTE_Driver\SCU_LPC43xx.c)(0x5D075A5C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -fno-function-sections -w -I ../Drivers -I ../../DeveloperKitLPC4357-I./RTE/Device/LPC4357_Cortex-M0-I./RTE/_Target_1-IC:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/Device/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DCORE_M0 -D_RTE_ -DCORE_M0 -DDEV_KIT_I2C-o ./objects/scu_lpc43xx.o -MD)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\LPC43xx.h)(0x54C0CFDC)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354010)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\system_LPC43xx.h)(0x5703929E)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\RTE_Driver\SCU_LPC43xx.h)(0x5E2FAED6)
+F (RTE\Device\LPC4357_Cortex-M0\RTE_Device.h)(0x63874B51)()
+F (RTE\Device\LPC4357_Cortex-M0\startup_LPC43xx_M0.s)(0x6356A073)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/Device/LPC4357_Cortex-M0-I./RTE/_Target_1-IC:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/Device/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/RTE_Driver-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"CORE_M0 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc43xx_m0.o)
+F (RTE\Device\LPC4357_Cortex-M0\system_LPC43xx_M0.c)(0x5E2FABE8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -fno-function-sections -w -I ../Drivers -I ../../DeveloperKitLPC4357-I./RTE/Device/LPC4357_Cortex-M0-I./RTE/_Target_1-IC:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/Device/Include-IC:/Keil_packs/Keil/LPC4300_DFP/2.10.0/RTE_Driver-D__UVISION_VERSION="536" -D_RTE_ -DCORE_M0 -D_RTE_ -DCORE_M0 -DDEV_KIT_I2C-o ./objects/system_lpc43xx_m0.o -MD)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\LPC43xx.h)(0x54C0CFDC)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354010)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include\system_LPC43xx.h)(0x5703929E)

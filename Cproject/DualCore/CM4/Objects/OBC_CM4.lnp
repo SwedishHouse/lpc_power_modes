@@ -1,0 +1,14 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\cm4_main.o"
+".\objects\samsat_queue.o"
+".\objects\samsat_uart.o"
+".\objects\developer_kit_lpc4357_rev_c.o"
+".\objects\usart_lpc43xx.o"
+".\objects\gpdma_lpc43xx.o"
+".\objects\scu_lpc43xx.o"
+".\objects\startup_lpc43xx.o"
+".\objects\system_lpc43xx.o"
+--strict --scatter ".\Objects\OBC_CM4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\OBC_CM4.map" -o .\Objects\OBC_CM4.axf
