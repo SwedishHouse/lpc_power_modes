@@ -17,21 +17,27 @@ Library Manager: ArmAr.exe V6.16
 Hex Converter:   FromElf.exe V6.16
 CPU DLL:         SARMCM3.DLL V5.36.0.0
 Dialog DLL:      DARMCM1.DLL V1.19.4.0
-Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Target DLL:      ULP2CM3.DLL V2.213.0.0
 Dialog DLL:      TARMCM1.DLL V1.14.4.0
  
 <h2>Project:</h2>
-D:\GitHub\CortexFlashing\Cproject\DualCore\CM0\CM0.uvprojx
-Project File Date:  01/28/2023
+D:\GitHub\lpc_power_modes\Cproject\DualCore\CM0\CM0.uvprojx
+Project File Date:  02/07/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build Project 'CM0' - Target 'Target 1'
-compiling cm0_main.c...
 linking...
 Program Size: Code=5706 RO-data=394 RW-data=36 ZI-data=1308  
 FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\/ARM/BIN/ElfDwT.exe .\Objects\OBC_CM0.axf BASEADDRESS(0x1B000000)
+ELFDWT - Signature Creator V1.4.0.0
+COPYRIGHT Copyright (C) 2014-2018, ARM Ldt. and  ARM Germany GmbH
+*** Updated Signature over Range[32] (0x1B000000 - 0x1B000018): @0x1B00001C = 0x8EFFE2A7
+*** Processing completed, no Errors.
 After Build - User command #2: fromelf --cadcombined --output="..\CM4\M0_Image.c" ".\Objects\CM0.axf"
+Error: Q0108E: Could not create output file '..\CM4\M0_Image.c': Invalid argument
+Finished: 0 information, 0 warning and 1 error messages.
 ".\Objects\OBC_CM0.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -61,15 +67,15 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.6.0
 
    * Component: Keil::Device:SCU:1.2
-      Source file:   RTE_Driver\SCU_LPC43xx.c
       Include file:  RTE_Driver\SCU_LPC43xx.h
+      Source file:   RTE_Driver\SCU_LPC43xx.c
 
    * Component: Keil::Device:Startup:1.0.0
-      Include file:  RTE_Driver\Config\RTE_Device.h
       Source file:   Device\Source\system_LPC43xx_M0.c
       Include file:  Device\Include\LPC43xx.h
+      Include file:  RTE_Driver\Config\RTE_Device.h
       Source file:   Device\Source\ARM\startup_LPC43xx_M0.s
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

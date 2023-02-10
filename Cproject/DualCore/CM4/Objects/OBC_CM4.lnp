@@ -3,6 +3,7 @@
 ".\objects\samsat_queue.o"
 ".\objects\samsat_uart.o"
 ".\objects\developer_kit_lpc4357_rev_c.o"
+".\objects\iap_18xx_43xx.o"
 ".\objects\usart_lpc43xx.o"
 ".\objects\gpdma_lpc43xx.o"
 ".\objects\scu_lpc43xx.o"

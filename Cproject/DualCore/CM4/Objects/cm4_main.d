@@ -22,4 +22,5 @@
   ..\Drivers\samsat_ipc_config.h \
   ..\..\DeveloperKitLPC4357\Developer_Kit_LPC4357_rev_C.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h ..\Drivers\samsat_uart.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h M0_Image.c
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h ..\IAP\iap_18xx_43xx.h \
+  M0_Image.c ..\IAP\M0_Image_old.c

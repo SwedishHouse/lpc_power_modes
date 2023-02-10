@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>CORE_M4 DEV_KIT_USART</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Drivers;..\..\DeveloperKitLPC4357\</IncludePath>
+              <IncludePath>..\Drivers;..\..\DeveloperKitLPC4357\;..\IAP</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -483,6 +483,16 @@
               <FileName>Developer_Kit_LPC4357_rev_C.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\DeveloperKitLPC4357\Developer_Kit_LPC4357_rev_C.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>IAP</GroupName>
+          <Files>
+            <File>
+              <FileName>iap_18xx_43xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\IAP\iap_18xx_43xx.c</FilePath>
             </File>
           </Files>
         </Group>

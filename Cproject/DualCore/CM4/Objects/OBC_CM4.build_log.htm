@@ -17,25 +17,26 @@ Library Manager: ArmAr.exe V6.16
 Hex Converter:   FromElf.exe V6.16
 CPU DLL:         SARMCM3.DLL V5.36.0.0
 Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Target DLL:      ULP2CM3.DLL V2.213.0.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-D:\GitHub\CortexFlashing\Cproject\DualCore\CM4\CM4.uvprojx
-Project File Date:  01/28/2023
+D:\GitHub\lpc_power_modes\Cproject\DualCore\CM4\CM4.uvprojx
+Project File Date:  02/08/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build Project 'CM4' - Target 'Target 1'
+compiling iap_18xx_43xx.c...
 compiling Developer_Kit_LPC4357_rev_C.c...
 compiling cm4_main.c...
 linking...
-Program Size: Code=24924 RO-data=8048 RW-data=12 ZI-data=2908  
+Program Size: Code=26288 RO-data=8180 RW-data=6156 ZI-data=3932  
 FromELF: creating hex file...
 After Build - User command #1: C:\Keil_v5\/ARM/BIN/ElfDwT.exe .\Objects\OBC_CM4.axf BASEADDRESS(0x1A000000)
 ELFDWT - Signature Creator V1.4.0.0
 COPYRIGHT Copyright (C) 2014-2018, ARM Ldt. and  ARM Germany GmbH
-*** Updated Signature over Range[32] (0x1A000000 - 0x1A000018): @0x1A00001C = 0x53FFDA8E
+*** Updated Signature over Range[32] (0x1A000000 - 0x1A000018): @0x1A00001C = 0x53FFBCDE
 *** Processing completed, no Errors.
 ".\Objects\OBC_CM4.axf" - 0 Error(s), 0 Warning(s).
 
@@ -81,15 +82,15 @@ Package Vendor: Keil
       Include file:  RTE_Driver\GPDMA_LPC43xx.h
 
    * Component: Keil::Device:SCU:1.2
-      Source file:   RTE_Driver\SCU_LPC43xx.c
       Include file:  RTE_Driver\SCU_LPC43xx.h
+      Source file:   RTE_Driver\SCU_LPC43xx.c
 
    * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC43xx.h
       Source file:   Device\Source\ARM\startup_LPC43xx.s
       Include file:  RTE_Driver\Config\RTE_Device.h
-      Include file:  Device\Include\LPC43xx.h
       Source file:   Device\Source\system_LPC43xx.c
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

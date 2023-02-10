@@ -81,7 +81,6 @@ int main()
 		IPC_msgNotify();
 		while(1)
 		{
-			
 			/* Interprocessor communication */
 		if (IPC_getM4Flag() == 1U)
 		{
@@ -92,15 +91,15 @@ int main()
 			{
 				case GREEN_ON: 
 					//result[0] = Dev_Kit_LED_Color(LED_GREEN, LED_2, 1);
-					sprintf(result, "Lion\t %c\r\n\0", (char)(0x30+counter%10));
+					sprintf(result, "Bunny\t %c\r\n\0", (char)(0x30+counter%10));
 				break;
 				case GREEN_OFF:
 					//result[0] = Dev_Kit_LED_Color(LED_GREEN, LED_2, 0);
-					sprintf(result, "Maus\t %u\r\n\0", (char)(0x41 + counter%25));
+					sprintf(result, "Tiger\t %u\r\n\0", (char)(0x41 + counter%25));
 				break;
 				case Get_Temperaure: 
 					//temperature = Dev_Kit_LM75_Get_Data();
-					sprintf(result, "Parrot\t %u\r\n\0", temperature);
+					sprintf(result, "Wolf\t %u\r\n\0", temperature);
 				break;
 				default:
 					sprintf(result, "error %u\r\n\0", (uint8_t)'X');
