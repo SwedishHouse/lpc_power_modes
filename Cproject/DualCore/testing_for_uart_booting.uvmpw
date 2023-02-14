@@ -9,6 +9,10 @@
 
   <project>
     <PathAndName>.\CM0\CM0.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\CM4_Boot\cm4_boot.uvprojx</PathAndName>
     <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>

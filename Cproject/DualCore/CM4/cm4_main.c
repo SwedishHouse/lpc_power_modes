@@ -29,8 +29,8 @@ volatile message_t msg_m4;
 	sprintf(line, str, value);\
 	Print_Uart(line);\
 }	
-#define STOP_M0()					LPC_RGU->RESET_CTRL1 = (1 << 24);
-#define START_M0()				LPC_RGU->RESET_CTRL1 = 0;
+#define STOP_M0()					(LPC_RGU->RESET_CTRL1 = (1 << 24));
+#define START_M0()				(LPC_RGU->RESET_CTRL1 = 0);
 #define M0_ADDRESS_RAM		0x10080000
 #define M0_ADDRESS_FLASH	0x1B000000
 
@@ -155,8 +155,7 @@ int main()
 				memcpy(line, msg_m4.data, 50 * sizeof(char));
 				Print_Uart(line);
 			}
-		_delay_ms(800);
-		i++;
+		_delay_ms(200);
 		counter++;
 	}//end for
 
