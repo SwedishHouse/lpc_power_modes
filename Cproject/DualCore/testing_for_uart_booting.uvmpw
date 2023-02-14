@@ -19,7 +19,10 @@
 
   <project>
     <PathAndName>.\CM4\CM4.uvprojx</PathAndName>
-    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+  <project>
+    <PathAndName>.\CM4_Send_Image_To_SD\cm4_sd.uvprojx</PathAndName>
   </project>
 
 </ProjectWorkspace>

@@ -1,0 +1,12 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\cm4_sd_main.o"
+".\objects\ssp_lpc43xx.o"
+".\objects\gpdma_lpc43xx.o"
+".\objects\gpio_lpc43xx.o"
+".\objects\scu_lpc43xx.o"
+".\objects\startup_lpc43xx.o"
+".\objects\system_lpc43xx.o"
+--strict --scatter ".\Objects\cm4_sd.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\cm4_sd.map" -o .\Objects\cm4_sd.axf
