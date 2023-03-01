@@ -5,6 +5,23 @@ Component: ARM Compiler 6.16 Tool: armlink [5dfeaa00]
 Section Cross References
 
     cm4_boot_main.o(.ARM.exidx.text.main) refers to cm4_boot_main.o(.text.main) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_PreSectorForReadWrite) refers to iap_18xx_43xx.o(.text.Chip_IAP_PreSectorForReadWrite) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.text.Chip_IAP_CopyRamToFlash) refers to system_lpc43xx.o(.data.SystemCoreClock) for SystemCoreClock
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_CopyRamToFlash) refers to iap_18xx_43xx.o(.text.Chip_IAP_CopyRamToFlash) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.text.Chip_IAP_EraseSector) refers to system_lpc43xx.o(.data.SystemCoreClock) for SystemCoreClock
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_EraseSector) refers to iap_18xx_43xx.o(.text.Chip_IAP_EraseSector) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_BlankCheckSector) refers to iap_18xx_43xx.o(.text.Chip_IAP_BlankCheckSector) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReadPID) refers to iap_18xx_43xx.o(.text.Chip_IAP_ReadPID) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReadBootCode) refers to iap_18xx_43xx.o(.text.Chip_IAP_ReadBootCode) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_Compare) refers to iap_18xx_43xx.o(.text.Chip_IAP_Compare) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReinvokeISP) refers to iap_18xx_43xx.o(.text.Chip_IAP_ReinvokeISP) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReadUID) refers to iap_18xx_43xx.o(.text.Chip_IAP_ReadUID) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.text.Chip_IAP_ErasePage) refers to system_lpc43xx.o(.data.SystemCoreClock) for SystemCoreClock
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ErasePage) refers to iap_18xx_43xx.o(.text.Chip_IAP_ErasePage) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.text.Chip_IAP_SetBootFlashBank) refers to system_lpc43xx.o(.data.SystemCoreClock) for SystemCoreClock
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_SetBootFlashBank) refers to iap_18xx_43xx.o(.text.Chip_IAP_SetBootFlashBank) for [Anonymous Symbol]
+    iap_18xx_43xx.o(.text.Chip_IAP_Init) refers to iap_18xx_43xx.o(.rodata.cst16) for .L__const.Chip_IAP_Init.result
+    iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_Init) refers to iap_18xx_43xx.o(.text.Chip_IAP_Init) for [Anonymous Symbol]
     ssp_lpc43xx.o(.ARM.exidx.text.SSPx_GPDMA_Tx_SignalEvent) refers to ssp_lpc43xx.o(.text.SSPx_GPDMA_Tx_SignalEvent) for [Anonymous Symbol]
     ssp_lpc43xx.o(.ARM.exidx.text.SSPx_GPDMA_Rx_SignalEvent) refers to ssp_lpc43xx.o(.text.SSPx_GPDMA_Rx_SignalEvent) for [Anonymous Symbol]
     ssp_lpc43xx.o(.text.SSP0_GPDMA_Tx_SignalEvent) refers to ssp_lpc43xx.o(.bss.SSP0_Xfer) for SSP0_Xfer
@@ -255,6 +272,32 @@ Removing Unused input sections from the image.
     Removing cm4_boot_main.o(.text), (0 bytes).
     Removing cm4_boot_main.o(.ARM.exidx.text.main), (8 bytes).
     Removing cm4_boot_main.o(.ARM.use_no_argv), (4 bytes).
+    Removing iap_18xx_43xx.o(.text), (0 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_PreSectorForReadWrite), (38 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_PreSectorForReadWrite), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_CopyRamToFlash), (68 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_CopyRamToFlash), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_EraseSector), (68 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_EraseSector), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_BlankCheckSector), (38 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_BlankCheckSector), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_ReadPID), (30 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReadPID), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_ReadBootCode), (32 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReadBootCode), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_Compare), (38 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_Compare), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_ReinvokeISP), (32 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReinvokeISP), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_ReadUID), (30 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ReadUID), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_ErasePage), (62 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_ErasePage), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_SetBootFlashBank), (60 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_SetBootFlashBank), (8 bytes).
+    Removing iap_18xx_43xx.o(.text.Chip_IAP_Init), (56 bytes).
+    Removing iap_18xx_43xx.o(.ARM.exidx.text.Chip_IAP_Init), (8 bytes).
+    Removing iap_18xx_43xx.o(.rodata.cst16), (16 bytes).
     Removing ssp_lpc43xx.o(.text), (0 bytes).
     Removing ssp_lpc43xx.o(.text.SSPx_GPDMA_Tx_SignalEvent), (14 bytes).
     Removing ssp_lpc43xx.o(.ARM.exidx.text.SSPx_GPDMA_Tx_SignalEvent), (8 bytes).
@@ -345,7 +388,7 @@ Removing Unused input sections from the image.
     Removing system_lpc43xx.o(.ARM.exidx.text.SystemCoreClockUpdate), (8 bytes).
     Removing system_lpc43xx.o(.ARM.exidx.text.SystemInit), (8 bytes).
 
-92 unused section(s) (total 4805 bytes) removed from the image.
+118 unused section(s) (total 5469 bytes) removed from the image.
 
 ==============================================================================
 
@@ -433,6 +476,7 @@ Image Symbol Table
     SSP_LPC43xx.c                            0x00000000   Number         0  ssp_lpc43xx.o ABSOLUTE
     cm4_boot_main.c                          0x00000000   Number         0  cm4_boot_main.o ABSOLUTE
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    iap_18xx_43xx.c                          0x00000000   Number         0  iap_18xx_43xx.o ABSOLUTE
     system_LPC43xx.c                         0x00000000   Number         0  system_lpc43xx.o ABSOLUTE
     RESET                                    0x1a000000   Section      768  startup_lpc43xx.o(RESET)
     !!!main                                  0x1a000300   Section        8  __main.o(!!!main)
@@ -706,57 +750,57 @@ Memory Map of the image
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x1a000000   0x1a000000   0x00000300   Data   RO          130    RESET               startup_lpc43xx.o
-    0x1a000300   0x1a000300   0x00000008   Code   RO          160  * !!!main             c_w.l(__main.o)
-    0x1a000308   0x1a000308   0x00000034   Code   RO          333    !!!scatter          c_w.l(__scatter.o)
-    0x1a00033c   0x1a00033c   0x0000001a   Code   RO          335    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x1a000000   0x1a000000   0x00000300   Data   RO          163    RESET               startup_lpc43xx.o
+    0x1a000300   0x1a000300   0x00000008   Code   RO          193  * !!!main             c_w.l(__main.o)
+    0x1a000308   0x1a000308   0x00000034   Code   RO          366    !!!scatter          c_w.l(__scatter.o)
+    0x1a00033c   0x1a00033c   0x0000001a   Code   RO          368    !!handler_copy      c_w.l(__scatter_copy.o)
     0x1a000356   0x1a000356   0x00000002   PAD
-    0x1a000358   0x1a000358   0x0000001c   Code   RO          337    !!handler_zi        c_w.l(__scatter_zi.o)
-    0x1a000374   0x1a000374   0x00000002   Code   RO          288    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
-    0x1a000376   0x1a000376   0x00000000   Code   RO          316    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
-    0x1a000376   0x1a000376   0x00000000   Code   RO          318    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
-    0x1a000376   0x1a000376   0x00000000   Code   RO          321    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
-    0x1a000376   0x1a000376   0x00000000   Code   RO          324    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
-    0x1a000376   0x1a000376   0x00000000   Code   RO          326    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
-    0x1a000376   0x1a000376   0x00000000   Code   RO          329    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
-    0x1a000376   0x1a000376   0x00000002   Code   RO          330    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
-    0x1a000378   0x1a000378   0x00000002   Code   RO          201    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
-    0x1a00037a   0x1a00037a   0x00000000   Code   RO          259    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
-    0x1a00037a   0x1a00037a   0x00000004   Code   RO          260    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
-    0x1a00037e   0x1a00037e   0x00000006   Code   RO          261    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
-    0x1a000384   0x1a000384   0x000000f0   Code   RO          156    .text               c_w.l(lludivv7m.o)
-    0x1a000474   0x1a000474   0x00000006   Code   RO          158    .text               c_w.l(heapauxi.o)
-    0x1a00047a   0x1a00047a   0x0000004a   Code   RO          184    .text               c_w.l(sys_stackheap_outer.o)
-    0x1a0004c4   0x1a0004c4   0x00000008   Code   RO          198    .text               c_w.l(libspace.o)
-    0x1a0004cc   0x1a0004cc   0x0000000c   Code   RO          254    .text               c_w.l(sys_exit.o)
-    0x1a0004d8   0x1a0004d8   0x00000166   Code   RO           74    .text.DMA_IRQHandler  gpdma_lpc43xx.o
+    0x1a000358   0x1a000358   0x0000001c   Code   RO          370    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x1a000374   0x1a000374   0x00000002   Code   RO          321    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x1a000376   0x1a000376   0x00000000   Code   RO          349    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x1a000376   0x1a000376   0x00000000   Code   RO          351    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x1a000376   0x1a000376   0x00000000   Code   RO          354    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
+    0x1a000376   0x1a000376   0x00000000   Code   RO          357    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
+    0x1a000376   0x1a000376   0x00000000   Code   RO          359    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x1a000376   0x1a000376   0x00000000   Code   RO          362    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
+    0x1a000376   0x1a000376   0x00000002   Code   RO          363    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
+    0x1a000378   0x1a000378   0x00000002   Code   RO          234    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x1a00037a   0x1a00037a   0x00000000   Code   RO          292    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x1a00037a   0x1a00037a   0x00000004   Code   RO          293    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x1a00037e   0x1a00037e   0x00000006   Code   RO          294    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x1a000384   0x1a000384   0x000000f0   Code   RO          189    .text               c_w.l(lludivv7m.o)
+    0x1a000474   0x1a000474   0x00000006   Code   RO          191    .text               c_w.l(heapauxi.o)
+    0x1a00047a   0x1a00047a   0x0000004a   Code   RO          217    .text               c_w.l(sys_stackheap_outer.o)
+    0x1a0004c4   0x1a0004c4   0x00000008   Code   RO          231    .text               c_w.l(libspace.o)
+    0x1a0004cc   0x1a0004cc   0x0000000c   Code   RO          287    .text               c_w.l(sys_exit.o)
+    0x1a0004d8   0x1a0004d8   0x00000166   Code   RO          107    .text.DMA_IRQHandler  gpdma_lpc43xx.o
     0x1a00063e   0x1a00063e   0x00000002   PAD
-    0x1a000640   0x1a000640   0x00000100   Code   RO          140    .text.GetClockFreq  system_lpc43xx.o
-    0x1a000740   0x1a000740   0x0000000a   Ven    RO          339    Veneer$$Code        anon$$obj.o
-    0x1a00074a   0x1a00074a   0x0000000a   Ven    RO          340    Veneer$$Code        anon$$obj.o
-    0x1a000754   0x1a000754   0x0000001a   Code   RO          271    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x1a000640   0x1a000640   0x00000100   Code   RO          173    .text.GetClockFreq  system_lpc43xx.o
+    0x1a000740   0x1a000740   0x0000000a   Ven    RO          372    Veneer$$Code        anon$$obj.o
+    0x1a00074a   0x1a00074a   0x0000000a   Ven    RO          373    Veneer$$Code        anon$$obj.o
+    0x1a000754   0x1a000754   0x0000001a   Code   RO          304    x$fpl$fpinit        fz_wm.l(fpinit.o)
     0x1a00076e   0x1a00076e   0x00000002   PAD
-    0x1a000770   0x1a000770   0x00000020   Data   RO          332    Region$$Table       anon$$obj.o
+    0x1a000770   0x1a000770   0x00000020   Data   RO          365    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM2 (Exec base: 0x20000000, Load base: 0x1a000790, Size: 0x00000738, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x1a000790   0x00000004   Data   RW          146    .data.SystemCoreClock  system_lpc43xx.o
+    0x20000000   0x1a000790   0x00000004   Data   RW          179    .data.SystemCoreClock  system_lpc43xx.o
     0x20000004   0x1a000794   0x00000004   PAD
-    0x20000008        -       0x00000060   Zero   RW          199    .bss                c_w.l(libspace.o)
-    0x20000068        -       0x00000004   Zero   RW           78    .bss.Channel_active  gpdma_lpc43xx.o
-    0x2000006c        -       0x000000a0   Zero   RW           77    .bss.Channel_info   gpdma_lpc43xx.o
-    0x2000010c        -       0x00000004   Zero   RW           45    .bss.SSP0_Info.0    ssp_lpc43xx.o
-    0x20000110        -       0x00000001   Zero   RW           48    .bss.SSP0_Info.1.0  ssp_lpc43xx.o
+    0x20000008        -       0x00000060   Zero   RW          232    .bss                c_w.l(libspace.o)
+    0x20000068        -       0x00000004   Zero   RW          111    .bss.Channel_active  gpdma_lpc43xx.o
+    0x2000006c        -       0x000000a0   Zero   RW          110    .bss.Channel_info   gpdma_lpc43xx.o
+    0x2000010c        -       0x00000004   Zero   RW           78    .bss.SSP0_Info.0    ssp_lpc43xx.o
+    0x20000110        -       0x00000001   Zero   RW           81    .bss.SSP0_Info.1.0  ssp_lpc43xx.o
     0x20000111   0x1a000794   0x00000003   PAD
-    0x20000114        -       0x00000001   Zero   RW           49    .bss.SSP0_Info.1.1  ssp_lpc43xx.o
+    0x20000114        -       0x00000001   Zero   RW           82    .bss.SSP0_Info.1.1  ssp_lpc43xx.o
     0x20000115   0x1a000794   0x00000003   PAD
-    0x20000118        -       0x0000001c   Zero   RW           44    .bss.SSP0_Xfer      ssp_lpc43xx.o
+    0x20000118        -       0x0000001c   Zero   RW           77    .bss.SSP0_Xfer      ssp_lpc43xx.o
     0x20000134   0x1a000794   0x00000004   PAD
-    0x20000138        -       0x00000200   Zero   RW          129    HEAP                startup_lpc43xx.o
-    0x20000338        -       0x00000400   Zero   RW          128    STACK               startup_lpc43xx.o
+    0x20000138        -       0x00000200   Zero   RW          162    HEAP                startup_lpc43xx.o
+    0x20000338        -       0x00000400   Zero   RW          161    STACK               startup_lpc43xx.o
 
 
 
@@ -766,50 +810,50 @@ Memory Map of the image
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x1b000000   0x1b000000   0x00000002   Code   RO          197    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
-    0x1b000002   0x1b000002   0x00000004   Code   RO          209    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          212    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          215    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          217    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          219    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          222    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          224    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          226    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          228    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          230    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          232    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          234    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          236    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          238    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          240    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          242    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          246    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          248    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          250    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000000   Code   RO          252    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
-    0x1b000006   0x1b000006   0x00000002   Code   RO          253    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
-    0x1b000008   0x1b000008   0x00000000   Code   RO          162    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
-    0x1b000008   0x1b000008   0x00000000   Code   RO          168    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
-    0x1b000008   0x1b000008   0x00000006   Code   RO          180    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
-    0x1b00000e   0x1b00000e   0x00000000   Code   RO          170    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
-    0x1b00000e   0x1b00000e   0x00000004   Code   RO          171    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
-    0x1b000012   0x1b000012   0x00000000   Code   RO          173    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
-    0x1b000012   0x1b000012   0x00000008   Code   RO          174    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x1b000000   0x1b000000   0x00000002   Code   RO          230    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x1b000002   0x1b000002   0x00000004   Code   RO          242    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          245    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          248    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          250    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          252    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          255    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          257    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          259    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          261    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          263    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          265    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          267    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          269    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          271    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          273    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          275    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          279    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          281    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          283    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000000   Code   RO          285    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x1b000006   0x1b000006   0x00000002   Code   RO          286    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
+    0x1b000008   0x1b000008   0x00000000   Code   RO          195    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x1b000008   0x1b000008   0x00000000   Code   RO          201    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x1b000008   0x1b000008   0x00000006   Code   RO          213    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x1b00000e   0x1b00000e   0x00000000   Code   RO          203    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x1b00000e   0x1b00000e   0x00000004   Code   RO          204    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x1b000012   0x1b000012   0x00000000   Code   RO          206    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x1b000012   0x1b000012   0x00000008   Code   RO          207    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
     0x1b00001a   0x1b00001a   0x00000002   PAD
-    0x1b00001c   0x1b00001c   0x00000040   Code   RO          131    .text               startup_lpc43xx.o
-    0x1b00005c   0x1b00005c   0x00000012   Code   RO          186    .text               c_w.l(exit.o)
-    0x1b00006e   0x1b00006e   0x00000002   Code   RO          277    .text               c_w.l(use_no_semi.o)
-    0x1b000070   0x1b000070   0x00000000   Code   RO          279    .text               c_w.l(indicate_semi.o)
-    0x1b000070   0x1b000070   0x000000e2   Code   RO           19    .text.SSP0_IRQHandler  ssp_lpc43xx.o
+    0x1b00001c   0x1b00001c   0x00000040   Code   RO          164    .text               startup_lpc43xx.o
+    0x1b00005c   0x1b00005c   0x00000012   Code   RO          219    .text               c_w.l(exit.o)
+    0x1b00006e   0x1b00006e   0x00000002   Code   RO          310    .text               c_w.l(use_no_semi.o)
+    0x1b000070   0x1b000070   0x00000000   Code   RO          312    .text               c_w.l(indicate_semi.o)
+    0x1b000070   0x1b000070   0x000000e2   Code   RO           52    .text.SSP0_IRQHandler  ssp_lpc43xx.o
     0x1b000152   0x1b000152   0x00000002   PAD
-    0x1b000154   0x1b000154   0x00000596   Code   RO          144    .text.SystemInit    system_lpc43xx.o
+    0x1b000154   0x1b000154   0x00000596   Code   RO          177    .text.SystemInit    system_lpc43xx.o
     0x1b0006ea   0x1b0006ea   0x00000002   PAD
     0x1b0006ec   0x1b0006ec   0x00000002   Code   RO            2    .text.main          cm4_boot_main.o
-    0x1b0006ee   0x1b0006ee   0x0000000a   Ven    RO          341    Veneer$$Code        anon$$obj.o
-    0x1b0006f8   0x1b0006f8   0x0000000a   Ven    RO          342    Veneer$$Code        anon$$obj.o
-    0x1b000702   0x1b000702   0x0000000a   Ven    RO          343    Veneer$$Code        anon$$obj.o
-    0x1b00070c   0x1b00070c   0x0000000a   Ven    RO          344    Veneer$$Code        anon$$obj.o
-    0x1b000716   0x1b000716   0x0000000a   Ven    RO          345    Veneer$$Code        anon$$obj.o
+    0x1b0006ee   0x1b0006ee   0x0000000a   Ven    RO          374    Veneer$$Code        anon$$obj.o
+    0x1b0006f8   0x1b0006f8   0x0000000a   Ven    RO          375    Veneer$$Code        anon$$obj.o
+    0x1b000702   0x1b000702   0x0000000a   Ven    RO          376    Veneer$$Code        anon$$obj.o
+    0x1b00070c   0x1b00070c   0x0000000a   Ven    RO          377    Veneer$$Code        anon$$obj.o
+    0x1b000716   0x1b000716   0x0000000a   Ven    RO          378    Veneer$$Code        anon$$obj.o
 
 
 ==============================================================================

@@ -22,11 +22,17 @@ Dialog DLL:      TARMCM1.DLL V1.14.4.0
  
 <h2>Project:</h2>
 D:\GitHub\lpc_power_modes\Cproject\DualCore\CM0\CM0.uvprojx
-Project File Date:  02/07/2023
+Project File Date:  02/17/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
-Build Project 'CM0' - Target 'Target 1'
+Rebuild Project 'CM0' - Target 'Target 1'
+compiling LM75.c...
+compiling samsat_queue.c...
+compiling system_LPC43xx_M0.c...
+assembling startup_LPC43xx_M0.s...
+compiling SCU_LPC43xx.c...
+compiling cm0_main.c...
 linking...
 Program Size: Code=5706 RO-data=394 RW-data=36 ZI-data=1308  
 FromELF: creating hex file...
@@ -47,33 +53,33 @@ Package Vendor: ARM
    * Component: CORE Version: 5.6.0
 
 Package Vendor: Keil
-                http://www.keil.com/pack/Keil.LPC4300_DFP.2.10.0.pack
-                Keil.LPC4300_DFP.2.10.0
+                http://www.keil.com/pack/Keil.LPC4300_DFP.2.10.1.pack
+                Keil.LPC4300_DFP.2.10.1
                 NXP LPC4300 Series Device Support, Drivers and Examples
-   * Component: SCU Version: 1.2
+   * Component: SCU Version: 1.2.0
    * Component: Startup Version: 1.0.0
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\Device\LPC4357_Cortex-M0
   .\RTE\_Target_1
   C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
-  C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include
-  C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\RTE_Driver
+  C:\Keil_packs\Keil\LPC4300_DFP\2.10.1\Device\Include
+  C:\Keil_packs\Keil\LPC4300_DFP\2.10.1\RTE_Driver
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.6.0
 
-   * Component: Keil::Device:SCU:1.2
+   * Component: Keil::Device:SCU:1.2.0
       Source file:   RTE_Driver\SCU_LPC43xx.c
       Include file:  RTE_Driver\SCU_LPC43xx.h
 
    * Component: Keil::Device:Startup:1.0.0
-      Include file:  RTE_Driver\Config\RTE_Device.h
-      Source file:   Device\Source\ARM\startup_LPC43xx_M0.s
-      Source file:   Device\Source\system_LPC43xx_M0.c
       Include file:  Device\Include\LPC43xx.h
-Build Time Elapsed:  00:00:01
+      Source file:   Device\Source\system_LPC43xx_M0.c
+      Source file:   Device\Source\ARM\startup_LPC43xx_M0.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

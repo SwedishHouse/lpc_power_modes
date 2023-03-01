@@ -12,17 +12,9 @@
   </project>
 
   <project>
-    <PathAndName>.\CM4_Boot\cm4_boot.uvprojx</PathAndName>
+    <PathAndName>.\CM4\CM4.uvprojx</PathAndName>
     <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
-  </project>
-
-  <project>
-    <PathAndName>.\CM4\CM4.uvprojx</PathAndName>
-  </project>
-
-  <project>
-    <PathAndName>.\CM4_Send_Image_To_SD\cm4_sd.uvprojx</PathAndName>
   </project>
 
 </ProjectWorkspace>

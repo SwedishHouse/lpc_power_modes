@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp.sp
 ".\objects\cm4_boot_main.o"
+".\objects\iap_18xx_43xx.o"
 ".\objects\ssp_lpc43xx.o"
 ".\objects\gpdma_lpc43xx.o"
 ".\objects\gpio_lpc43xx.o"

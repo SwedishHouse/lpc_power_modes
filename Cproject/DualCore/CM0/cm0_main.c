@@ -91,11 +91,11 @@ int main()
 			{
 				case GREEN_ON: 
 					//result[0] = Dev_Kit_LED_Color(LED_GREEN, LED_2, 1);
-					sprintf(result, "Bunny\t %c\r\n\0", (char)(0x30+counter%10));
+					sprintf(result, "Tiger\t %c\r\n\0", (char)(0x30+counter%10));
 				break;
 				case GREEN_OFF:
 					//result[0] = Dev_Kit_LED_Color(LED_GREEN, LED_2, 0);
-					sprintf(result, "Tiger\t %u\r\n\0", (char)(0x41 + counter%25));
+					sprintf(result, "Bunny\t %u\r\n\0", (char)(0x41 + counter%25));
 				break;
 				case Get_Temperaure: 
 					//temperature = Dev_Kit_LM75_Get_Data();

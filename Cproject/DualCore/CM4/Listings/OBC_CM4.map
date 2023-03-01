@@ -1250,74 +1250,74 @@ Image Symbol Table
     ipc_send_signal                          0x1a0059c1   Thumb Code     8  samsat_queue.o(.text.ipc_send_signal)
     [Anonymous Symbol]                       0x1a0059c0   Section        0  samsat_queue.o(.text.ipc_send_signal)
     [Anonymous Symbol]                       0x1a0059c8   Section        0  cm4_main.o(.text.main)
-    myUSART_callback                         0x1a005f2d   Thumb Code    24  samsat_uart.o(.text.myUSART_callback)
-    [Anonymous Symbol]                       0x1a005f2c   Section        0  samsat_uart.o(.text.myUSART_callback)
-    [Anonymous Symbol]                       0x1a005f44   Section        0  samsat_uart.o(.text.samsat_uart_init)
-    [Anonymous Symbol]                       0x1a006078   Section        0  samsat_uart.o(.text.samsat_uart_write)
-    CL$$btod_d2e                             0x1a006158   Section       62  btod.o(CL$$btod_d2e)
-    CL$$btod_d2e_denorm_low                  0x1a006196   Section       70  btod.o(CL$$btod_d2e_denorm_low)
-    CL$$btod_d2e_norm_op1                    0x1a0061dc   Section       96  btod.o(CL$$btod_d2e_norm_op1)
-    CL$$btod_div_common                      0x1a00623c   Section      824  btod.o(CL$$btod_div_common)
-    CL$$btod_e2e                             0x1a006574   Section      220  btod.o(CL$$btod_e2e)
-    CL$$btod_ediv                            0x1a006650   Section       42  btod.o(CL$$btod_ediv)
-    CL$$btod_emul                            0x1a00667a   Section       42  btod.o(CL$$btod_emul)
-    CL$$btod_mult_common                     0x1a0066a4   Section      580  btod.o(CL$$btod_mult_common)
-    i.__ARM_fpclassify                       0x1a0068e8   Section        0  fpclassify.o(i.__ARM_fpclassify)
-    i._is_digit                              0x1a006918   Section        0  __printf_wp.o(i._is_digit)
-    locale$$code                             0x1a006928   Section       44  lc_numeric_c.o(locale$$code)
-    locale$$code                             0x1a006954   Section       44  lc_ctype_c.o(locale$$code)
-    $v0                                      0x1a006980   Number         0  fpinit.o(x$fpl$fpinit)
-    x$fpl$fpinit                             0x1a006980   Section       26  fpinit.o(x$fpl$fpinit)
-    $v0                                      0x1a00699a   Number         0  printf1.o(x$fpl$printf1)
-    x$fpl$printf1                            0x1a00699a   Section        4  printf1.o(x$fpl$printf1)
-    $v0                                      0x1a00699e   Number         0  printf2.o(x$fpl$printf2)
-    x$fpl$printf2                            0x1a00699e   Section        4  printf2.o(x$fpl$printf2)
-    x$fpl$usenofp                            0x1a0069a2   Section        0  usenofp.o(x$fpl$usenofp)
-    initial_mbstate                          0x1a0069a4   Data           8  _printf_wctomb.o(.constdata)
-    .constdata                               0x1a0069a4   Section        8  _printf_wctomb.o(.constdata)
-    uc_hextab                                0x1a0069ac   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
-    .constdata                               0x1a0069ac   Section       40  _printf_hex_int_ll_ptr.o(.constdata)
-    lc_hextab                                0x1a0069c0   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
-    maptable                                 0x1a0069d4   Data          17  __printf_flags_ss_wp.o(.constdata)
-    .constdata                               0x1a0069d4   Section       17  __printf_flags_ss_wp.o(.constdata)
-    lc_hextab                                0x1a0069e5   Data          19  _printf_fp_hex.o(.constdata)
-    .constdata                               0x1a0069e5   Section       38  _printf_fp_hex.o(.constdata)
-    uc_hextab                                0x1a0069f8   Data          19  _printf_fp_hex.o(.constdata)
-    tenpwrs_x                                0x1a006a0c   Data          60  bigflt0.o(.constdata)
-    .constdata                               0x1a006a0c   Section      148  bigflt0.o(.constdata)
-    tenpwrs_i                                0x1a006a48   Data          64  bigflt0.o(.constdata)
-    .L.str                                   0x1a006aa0   Data          18  cm4_main.o(.rodata..L.str)
-    .L.str.1                                 0x1a006ab2   Data          11  cm4_main.o(.rodata..L.str.1)
-    .L.str.2                                 0x1a006abd   Data          17  cm4_main.o(.rodata..L.str.2)
-    .L.str.3                                 0x1a006ace   Data          15  cm4_main.o(.rodata..L.str.3)
-    .L.str.4                                 0x1a006add   Data          19  cm4_main.o(.rodata..L.str.4)
-    .L.str.5                                 0x1a006af0   Data          49  cm4_main.o(.rodata..L.str.5)
-    USART3_Resources                         0x1a00835c   Data         104  usart_lpc43xx.o(.rodata.USART3_Resources)
-    [Anonymous Symbol]                       0x1a00835c   Section        0  usart_lpc43xx.o(.rodata.USART3_Resources)
-    USART3_pin_rx                            0x1a0083c4   Data           8  usart_lpc43xx.o(.rodata.USART3_pin_rx)
-    [Anonymous Symbol]                       0x1a0083c4   Section        0  usart_lpc43xx.o(.rodata.USART3_pin_rx)
-    USART3_pin_tx                            0x1a0083cc   Data           8  usart_lpc43xx.o(.rodata.USART3_pin_tx)
-    [Anonymous Symbol]                       0x1a0083cc   Section        0  usart_lpc43xx.o(.rodata.USART3_pin_tx)
-    .L__const.Chip_IAP_Init.result           0x1a0083d4   Data          16  iap_18xx_43xx.o(.rodata.cst16)
-    emcdivby2_opc                            0x1a0083e4   Data          20  system_lpc43xx.o(.rodata.emcdivby2_opc)
-    [Anonymous Symbol]                       0x1a0083e4   Section        0  system_lpc43xx.o(.rodata.emcdivby2_opc)
-    fract_div_lookup_table                   0x1a0083f8   Data         288  usart_lpc43xx.o(.rodata.fract_div_lookup_table)
-    [Anonymous Symbol]                       0x1a0083f8   Section        0  usart_lpc43xx.o(.rodata.fract_div_lookup_table)
-    .L.str.6                                 0x1a008518   Data          48  cm4_main.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x1a008518   Section        0  cm4_main.o(.rodata.str1.1)
-    usart_driver_version                     0x1a008548   Data           4  usart_lpc43xx.o(.rodata.usart_driver_version)
-    [Anonymous Symbol]                       0x1a008548   Section        0  usart_lpc43xx.o(.rodata.usart_driver_version)
-    locale$$data                             0x1a00856c   Section       28  lc_numeric_c.o(locale$$data)
-    __lcnum_c_name                           0x1a008570   Data           2  lc_numeric_c.o(locale$$data)
-    __lcnum_c_start                          0x1a008578   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_point                          0x1a008584   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_thousands                      0x1a008586   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_grouping                       0x1a008587   Data           0  lc_numeric_c.o(locale$$data)
-    __lcnum_c_end                            0x1a008588   Data           0  lc_numeric_c.o(locale$$data)
-    locale$$data                             0x1a008588   Section      272  lc_ctype_c.o(locale$$data)
-    __lcctype_c_name                         0x1a00858c   Data           2  lc_ctype_c.o(locale$$data)
-    __lcctype_c_start                        0x1a008594   Data           0  lc_ctype_c.o(locale$$data)
-    __lcctype_c_end                          0x1a008698   Data           0  lc_ctype_c.o(locale$$data)
+    myUSART_callback                         0x1a005f59   Thumb Code    24  samsat_uart.o(.text.myUSART_callback)
+    [Anonymous Symbol]                       0x1a005f58   Section        0  samsat_uart.o(.text.myUSART_callback)
+    [Anonymous Symbol]                       0x1a005f70   Section        0  samsat_uart.o(.text.samsat_uart_init)
+    [Anonymous Symbol]                       0x1a0060a4   Section        0  samsat_uart.o(.text.samsat_uart_write)
+    CL$$btod_d2e                             0x1a006184   Section       62  btod.o(CL$$btod_d2e)
+    CL$$btod_d2e_denorm_low                  0x1a0061c2   Section       70  btod.o(CL$$btod_d2e_denorm_low)
+    CL$$btod_d2e_norm_op1                    0x1a006208   Section       96  btod.o(CL$$btod_d2e_norm_op1)
+    CL$$btod_div_common                      0x1a006268   Section      824  btod.o(CL$$btod_div_common)
+    CL$$btod_e2e                             0x1a0065a0   Section      220  btod.o(CL$$btod_e2e)
+    CL$$btod_ediv                            0x1a00667c   Section       42  btod.o(CL$$btod_ediv)
+    CL$$btod_emul                            0x1a0066a6   Section       42  btod.o(CL$$btod_emul)
+    CL$$btod_mult_common                     0x1a0066d0   Section      580  btod.o(CL$$btod_mult_common)
+    i.__ARM_fpclassify                       0x1a006914   Section        0  fpclassify.o(i.__ARM_fpclassify)
+    i._is_digit                              0x1a006944   Section        0  __printf_wp.o(i._is_digit)
+    locale$$code                             0x1a006954   Section       44  lc_numeric_c.o(locale$$code)
+    locale$$code                             0x1a006980   Section       44  lc_ctype_c.o(locale$$code)
+    $v0                                      0x1a0069ac   Number         0  fpinit.o(x$fpl$fpinit)
+    x$fpl$fpinit                             0x1a0069ac   Section       26  fpinit.o(x$fpl$fpinit)
+    $v0                                      0x1a0069c6   Number         0  printf1.o(x$fpl$printf1)
+    x$fpl$printf1                            0x1a0069c6   Section        4  printf1.o(x$fpl$printf1)
+    $v0                                      0x1a0069ca   Number         0  printf2.o(x$fpl$printf2)
+    x$fpl$printf2                            0x1a0069ca   Section        4  printf2.o(x$fpl$printf2)
+    x$fpl$usenofp                            0x1a0069ce   Section        0  usenofp.o(x$fpl$usenofp)
+    initial_mbstate                          0x1a0069d0   Data           8  _printf_wctomb.o(.constdata)
+    .constdata                               0x1a0069d0   Section        8  _printf_wctomb.o(.constdata)
+    uc_hextab                                0x1a0069d8   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
+    .constdata                               0x1a0069d8   Section       40  _printf_hex_int_ll_ptr.o(.constdata)
+    lc_hextab                                0x1a0069ec   Data          20  _printf_hex_int_ll_ptr.o(.constdata)
+    maptable                                 0x1a006a00   Data          17  __printf_flags_ss_wp.o(.constdata)
+    .constdata                               0x1a006a00   Section       17  __printf_flags_ss_wp.o(.constdata)
+    lc_hextab                                0x1a006a11   Data          19  _printf_fp_hex.o(.constdata)
+    .constdata                               0x1a006a11   Section       38  _printf_fp_hex.o(.constdata)
+    uc_hextab                                0x1a006a24   Data          19  _printf_fp_hex.o(.constdata)
+    tenpwrs_x                                0x1a006a38   Data          60  bigflt0.o(.constdata)
+    .constdata                               0x1a006a38   Section      148  bigflt0.o(.constdata)
+    tenpwrs_i                                0x1a006a74   Data          64  bigflt0.o(.constdata)
+    .L.str                                   0x1a006acc   Data          18  cm4_main.o(.rodata..L.str)
+    .L.str.1                                 0x1a006ade   Data          11  cm4_main.o(.rodata..L.str.1)
+    .L.str.2                                 0x1a006ae9   Data          17  cm4_main.o(.rodata..L.str.2)
+    .L.str.3                                 0x1a006afa   Data          15  cm4_main.o(.rodata..L.str.3)
+    .L.str.4                                 0x1a006b09   Data          19  cm4_main.o(.rodata..L.str.4)
+    .L.str.5                                 0x1a006b1c   Data          49  cm4_main.o(.rodata..L.str.5)
+    USART3_Resources                         0x1a008388   Data         104  usart_lpc43xx.o(.rodata.USART3_Resources)
+    [Anonymous Symbol]                       0x1a008388   Section        0  usart_lpc43xx.o(.rodata.USART3_Resources)
+    USART3_pin_rx                            0x1a0083f0   Data           8  usart_lpc43xx.o(.rodata.USART3_pin_rx)
+    [Anonymous Symbol]                       0x1a0083f0   Section        0  usart_lpc43xx.o(.rodata.USART3_pin_rx)
+    USART3_pin_tx                            0x1a0083f8   Data           8  usart_lpc43xx.o(.rodata.USART3_pin_tx)
+    [Anonymous Symbol]                       0x1a0083f8   Section        0  usart_lpc43xx.o(.rodata.USART3_pin_tx)
+    .L__const.Chip_IAP_Init.result           0x1a008400   Data          16  iap_18xx_43xx.o(.rodata.cst16)
+    emcdivby2_opc                            0x1a008410   Data          20  system_lpc43xx.o(.rodata.emcdivby2_opc)
+    [Anonymous Symbol]                       0x1a008410   Section        0  system_lpc43xx.o(.rodata.emcdivby2_opc)
+    fract_div_lookup_table                   0x1a008424   Data         288  usart_lpc43xx.o(.rodata.fract_div_lookup_table)
+    [Anonymous Symbol]                       0x1a008424   Section        0  usart_lpc43xx.o(.rodata.fract_div_lookup_table)
+    .L.str.6                                 0x1a008544   Data          48  cm4_main.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x1a008544   Section        0  cm4_main.o(.rodata.str1.1)
+    usart_driver_version                     0x1a008574   Data           4  usart_lpc43xx.o(.rodata.usart_driver_version)
+    [Anonymous Symbol]                       0x1a008574   Section        0  usart_lpc43xx.o(.rodata.usart_driver_version)
+    locale$$data                             0x1a008598   Section       28  lc_numeric_c.o(locale$$data)
+    __lcnum_c_name                           0x1a00859c   Data           2  lc_numeric_c.o(locale$$data)
+    __lcnum_c_start                          0x1a0085a4   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_point                          0x1a0085b0   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_thousands                      0x1a0085b2   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_grouping                       0x1a0085b3   Data           0  lc_numeric_c.o(locale$$data)
+    __lcnum_c_end                            0x1a0085b4   Data           0  lc_numeric_c.o(locale$$data)
+    locale$$data                             0x1a0085b4   Section      272  lc_ctype_c.o(locale$$data)
+    __lcctype_c_name                         0x1a0085b8   Data           2  lc_ctype_c.o(locale$$data)
+    __lcctype_c_start                        0x1a0085c0   Data           0  lc_ctype_c.o(locale$$data)
+    __lcctype_c_end                          0x1a0086c4   Data           0  lc_ctype_c.o(locale$$data)
 
     Global Symbols
 
@@ -1596,32 +1596,32 @@ Image Symbol Table
     USART3_IRQHandler                        0x1a00334d   Thumb Code    16  usart_lpc43xx.o(.text.USART3_IRQHandler)
     USART_SetBaudrate                        0x1a004e39   Thumb Code  1456  usart_lpc43xx.o(.text.USART_SetBaudrate)
     _delay_ms                                0x1a005975   Thumb Code    46  cm4_main.o(.text._delay_ms)
-    main                                     0x1a0059c9   Thumb Code  1378  cm4_main.o(.text.main)
-    samsat_uart_init                         0x1a005f45   Thumb Code   308  samsat_uart.o(.text.samsat_uart_init)
-    samsat_uart_write                        0x1a006079   Thumb Code   224  samsat_uart.o(.text.samsat_uart_write)
-    _btod_d2e                                0x1a006159   Thumb Code    62  btod.o(CL$$btod_d2e)
-    _d2e_denorm_low                          0x1a006197   Thumb Code    70  btod.o(CL$$btod_d2e_denorm_low)
-    _d2e_norm_op1                            0x1a0061dd   Thumb Code    96  btod.o(CL$$btod_d2e_norm_op1)
-    __btod_div_common                        0x1a00623d   Thumb Code   696  btod.o(CL$$btod_div_common)
-    _e2e                                     0x1a006575   Thumb Code   220  btod.o(CL$$btod_e2e)
-    _btod_ediv                               0x1a006651   Thumb Code    42  btod.o(CL$$btod_ediv)
-    _btod_emul                               0x1a00667b   Thumb Code    42  btod.o(CL$$btod_emul)
-    __btod_mult_common                       0x1a0066a5   Thumb Code   580  btod.o(CL$$btod_mult_common)
-    __ARM_fpclassify                         0x1a0068e9   Thumb Code    48  fpclassify.o(i.__ARM_fpclassify)
-    _is_digit                                0x1a006919   Thumb Code    14  __printf_wp.o(i._is_digit)
-    _get_lc_numeric                          0x1a006929   Thumb Code    44  lc_numeric_c.o(locale$$code)
-    _get_lc_ctype                            0x1a006955   Thumb Code    44  lc_ctype_c.o(locale$$code)
-    _fp_init                                 0x1a006981   Thumb Code    26  fpinit.o(x$fpl$fpinit)
-    __fplib_config_fpu_vfp                   0x1a006999   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    __fplib_config_pureend_doubles           0x1a006999   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    _printf_fp_dec                           0x1a00699b   Thumb Code     4  printf1.o(x$fpl$printf1)
-    _printf_fp_hex                           0x1a00699f   Thumb Code     4  printf2.o(x$fpl$printf2)
-    __I$use$fp                               0x1a0069a2   Number         0  usenofp.o(x$fpl$usenofp)
-    Driver_USART3                            0x1a006b24   Data          56  usart_lpc43xx.o(.rodata.Driver_USART3)
-    LR0                                      0x1a006b5c   Data        6144  cm4_main.o(.rodata.LR0)
-    Region$$Table$$Base                      0x1a00854c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x1a00856c   Number         0  anon$$obj.o(Region$$Table)
-    __ctype                                  0x1a008595   Data           0  lc_ctype_c.o(locale$$data)
+    main                                     0x1a0059c9   Thumb Code  1424  cm4_main.o(.text.main)
+    samsat_uart_init                         0x1a005f71   Thumb Code   308  samsat_uart.o(.text.samsat_uart_init)
+    samsat_uart_write                        0x1a0060a5   Thumb Code   224  samsat_uart.o(.text.samsat_uart_write)
+    _btod_d2e                                0x1a006185   Thumb Code    62  btod.o(CL$$btod_d2e)
+    _d2e_denorm_low                          0x1a0061c3   Thumb Code    70  btod.o(CL$$btod_d2e_denorm_low)
+    _d2e_norm_op1                            0x1a006209   Thumb Code    96  btod.o(CL$$btod_d2e_norm_op1)
+    __btod_div_common                        0x1a006269   Thumb Code   696  btod.o(CL$$btod_div_common)
+    _e2e                                     0x1a0065a1   Thumb Code   220  btod.o(CL$$btod_e2e)
+    _btod_ediv                               0x1a00667d   Thumb Code    42  btod.o(CL$$btod_ediv)
+    _btod_emul                               0x1a0066a7   Thumb Code    42  btod.o(CL$$btod_emul)
+    __btod_mult_common                       0x1a0066d1   Thumb Code   580  btod.o(CL$$btod_mult_common)
+    __ARM_fpclassify                         0x1a006915   Thumb Code    48  fpclassify.o(i.__ARM_fpclassify)
+    _is_digit                                0x1a006945   Thumb Code    14  __printf_wp.o(i._is_digit)
+    _get_lc_numeric                          0x1a006955   Thumb Code    44  lc_numeric_c.o(locale$$code)
+    _get_lc_ctype                            0x1a006981   Thumb Code    44  lc_ctype_c.o(locale$$code)
+    _fp_init                                 0x1a0069ad   Thumb Code    26  fpinit.o(x$fpl$fpinit)
+    __fplib_config_fpu_vfp                   0x1a0069c5   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    __fplib_config_pureend_doubles           0x1a0069c5   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    _printf_fp_dec                           0x1a0069c7   Thumb Code     4  printf1.o(x$fpl$printf1)
+    _printf_fp_hex                           0x1a0069cb   Thumb Code     4  printf2.o(x$fpl$printf2)
+    __I$use$fp                               0x1a0069ce   Number         0  usenofp.o(x$fpl$usenofp)
+    Driver_USART3                            0x1a006b50   Data          56  usart_lpc43xx.o(.rodata.Driver_USART3)
+    LR0                                      0x1a006b88   Data        6144  cm4_main.o(.rodata.LR0)
+    Region$$Table$$Base                      0x1a008578   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x1a008598   Number         0  anon$$obj.o(Region$$Table)
+    __ctype                                  0x1a0085c1   Data           0  lc_ctype_c.o(locale$$data)
 
 
 
@@ -1631,9 +1631,9 @@ Memory Map of the image
 
   Image Entry point : 0x1a000301
 
-  Load Region LR_IROM1 (Base: 0x1a000000, Size: 0x00009ea8, Max: 0x00080000, ABSOLUTE, COMPRESSED[0x00009aa8])
+  Load Region LR_IROM1 (Base: 0x1a000000, Size: 0x00009ed8, Max: 0x00080000, ABSOLUTE, COMPRESSED[0x00009ad8])
 
-    Execution Region RW_IRAM1 (Exec base: 0x10000000, Load base: 0x1a008698, Size: 0x00002768, Max: 0x00008000, ABSOLUTE, COMPRESSED[0x00001410])
+    Execution Region RW_IRAM1 (Exec base: 0x10000000, Load base: 0x1a0086c8, Size: 0x00002768, Max: 0x00008000, ABSOLUTE, COMPRESSED[0x00001410])
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1663,7 +1663,7 @@ Memory Map of the image
     0x10001f68        -       0x00000800   Zero   RW          290    STACK               startup_lpc43xx.o
 
 
-    Execution Region ER_IROM1 (Exec base: 0x1a000000, Load base: 0x1a000000, Size: 0x00008698, Max: 0x00080000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x1a000000, Load base: 0x1a000000, Size: 0x000086c4, Max: 0x00080000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1896,55 +1896,54 @@ Memory Map of the image
     0x1a0059a2   0x1a0059a2   0x00000002   PAD
     0x1a0059a4   0x1a0059a4   0x0000001c   Code   RO          116    .text.iap_entry     iap_18xx_43xx.o
     0x1a0059c0   0x1a0059c0   0x00000008   Code   RO           60    .text.ipc_send_signal  samsat_queue.o
-    0x1a0059c8   0x1a0059c8   0x00000562   Code   RO           10    .text.main          cm4_main.o
-    0x1a005f2a   0x1a005f2a   0x00000002   PAD
-    0x1a005f2c   0x1a005f2c   0x00000018   Code   RO           91    .text.myUSART_callback  samsat_uart.o
-    0x1a005f44   0x1a005f44   0x00000134   Code   RO           89    .text.samsat_uart_init  samsat_uart.o
-    0x1a006078   0x1a006078   0x000000e0   Code   RO           93    .text.samsat_uart_write  samsat_uart.o
-    0x1a006158   0x1a006158   0x0000003e   Code   RO          501    CL$$btod_d2e        c_w.l(btod.o)
-    0x1a006196   0x1a006196   0x00000046   Code   RO          503    CL$$btod_d2e_denorm_low  c_w.l(btod.o)
-    0x1a0061dc   0x1a0061dc   0x00000060   Code   RO          502    CL$$btod_d2e_norm_op1  c_w.l(btod.o)
-    0x1a00623c   0x1a00623c   0x00000338   Code   RO          511    CL$$btod_div_common  c_w.l(btod.o)
-    0x1a006574   0x1a006574   0x000000dc   Code   RO          508    CL$$btod_e2e        c_w.l(btod.o)
-    0x1a006650   0x1a006650   0x0000002a   Code   RO          505    CL$$btod_ediv       c_w.l(btod.o)
-    0x1a00667a   0x1a00667a   0x0000002a   Code   RO          504    CL$$btod_emul       c_w.l(btod.o)
-    0x1a0066a4   0x1a0066a4   0x00000244   Code   RO          510    CL$$btod_mult_common  c_w.l(btod.o)
-    0x1a0068e8   0x1a0068e8   0x00000030   Code   RO          543    i.__ARM_fpclassify  m_wm.l(fpclassify.o)
-    0x1a006918   0x1a006918   0x0000000e   Code   RO          405    i._is_digit         c_w.l(__printf_wp.o)
-    0x1a006926   0x1a006926   0x00000002   PAD
-    0x1a006928   0x1a006928   0x0000002c   Code   RO          526    locale$$code        c_w.l(lc_numeric_c.o)
-    0x1a006954   0x1a006954   0x0000002c   Code   RO          555    locale$$code        c_w.l(lc_ctype_c.o)
-    0x1a006980   0x1a006980   0x0000001a   Code   RO          627    x$fpl$fpinit        fz_wm.l(fpinit.o)
-    0x1a00699a   0x1a00699a   0x00000004   Code   RO          442    x$fpl$printf1       fz_wm.l(printf1.o)
-    0x1a00699e   0x1a00699e   0x00000004   Code   RO          444    x$fpl$printf2       fz_wm.l(printf2.o)
-    0x1a0069a2   0x1a0069a2   0x00000000   Code   RO          542    x$fpl$usenofp       fz_wm.l(usenofp.o)
-    0x1a0069a2   0x1a0069a2   0x00000002   PAD
-    0x1a0069a4   0x1a0069a4   0x00000008   Data   RO          364    .constdata          c_w.l(_printf_wctomb.o)
-    0x1a0069ac   0x1a0069ac   0x00000028   Data   RO          393    .constdata          c_w.l(_printf_hex_int_ll_ptr.o)
-    0x1a0069d4   0x1a0069d4   0x00000011   Data   RO          413    .constdata          c_w.l(__printf_flags_ss_wp.o)
-    0x1a0069e5   0x1a0069e5   0x00000026   Data   RO          476    .constdata          c_w.l(_printf_fp_hex.o)
-    0x1a006a0b   0x1a006a0b   0x00000001   PAD
-    0x1a006a0c   0x1a006a0c   0x00000094   Data   RO          499    .constdata          c_w.l(bigflt0.o)
-    0x1a006aa0   0x1a006aa0   0x00000012   Data   RO           30    .rodata..L.str      cm4_main.o
-    0x1a006ab2   0x1a006ab2   0x0000000b   Data   RO           31    .rodata..L.str.1    cm4_main.o
-    0x1a006abd   0x1a006abd   0x00000011   Data   RO           33    .rodata..L.str.2    cm4_main.o
-    0x1a006ace   0x1a006ace   0x0000000f   Data   RO           36    .rodata..L.str.3    cm4_main.o
-    0x1a006add   0x1a006add   0x00000013   Data   RO           37    .rodata..L.str.4    cm4_main.o
-    0x1a006af0   0x1a006af0   0x00000031   Data   RO           38    .rodata..L.str.5    cm4_main.o
-    0x1a006b21   0x1a006b21   0x00000003   PAD
-    0x1a006b24   0x1a006b24   0x00000038   Data   RO          219    .rodata.Driver_USART3  usart_lpc43xx.o
-    0x1a006b5c   0x1a006b5c   0x00001800   Data   RO           24    .rodata.LR0         cm4_main.o
-    0x1a00835c   0x1a00835c   0x00000068   Data   RO          223    .rodata.USART3_Resources  usart_lpc43xx.o
-    0x1a0083c4   0x1a0083c4   0x00000008   Data   RO          221    .rodata.USART3_pin_rx  usart_lpc43xx.o
-    0x1a0083cc   0x1a0083cc   0x00000008   Data   RO          220    .rodata.USART3_pin_tx  usart_lpc43xx.o
-    0x1a0083d4   0x1a0083d4   0x00000010   Data   RO          140    .rodata.cst16       iap_18xx_43xx.o
-    0x1a0083e4   0x1a0083e4   0x00000014   Data   RO          319    .rodata.emcdivby2_opc  system_lpc43xx.o
-    0x1a0083f8   0x1a0083f8   0x00000120   Data   RO          218    .rodata.fract_div_lookup_table  usart_lpc43xx.o
-    0x1a008518   0x1a008518   0x00000030   Data   RO           39    .rodata.str1.1      cm4_main.o
-    0x1a008548   0x1a008548   0x00000004   Data   RO          224    .rodata.usart_driver_version  usart_lpc43xx.o
-    0x1a00854c   0x1a00854c   0x00000020   Data   RO          688    Region$$Table       anon$$obj.o
-    0x1a00856c   0x1a00856c   0x0000001c   Data   RO          525    locale$$data        c_w.l(lc_numeric_c.o)
-    0x1a008588   0x1a008588   0x00000110   Data   RO          554    locale$$data        c_w.l(lc_ctype_c.o)
+    0x1a0059c8   0x1a0059c8   0x00000590   Code   RO           10    .text.main          cm4_main.o
+    0x1a005f58   0x1a005f58   0x00000018   Code   RO           91    .text.myUSART_callback  samsat_uart.o
+    0x1a005f70   0x1a005f70   0x00000134   Code   RO           89    .text.samsat_uart_init  samsat_uart.o
+    0x1a0060a4   0x1a0060a4   0x000000e0   Code   RO           93    .text.samsat_uart_write  samsat_uart.o
+    0x1a006184   0x1a006184   0x0000003e   Code   RO          501    CL$$btod_d2e        c_w.l(btod.o)
+    0x1a0061c2   0x1a0061c2   0x00000046   Code   RO          503    CL$$btod_d2e_denorm_low  c_w.l(btod.o)
+    0x1a006208   0x1a006208   0x00000060   Code   RO          502    CL$$btod_d2e_norm_op1  c_w.l(btod.o)
+    0x1a006268   0x1a006268   0x00000338   Code   RO          511    CL$$btod_div_common  c_w.l(btod.o)
+    0x1a0065a0   0x1a0065a0   0x000000dc   Code   RO          508    CL$$btod_e2e        c_w.l(btod.o)
+    0x1a00667c   0x1a00667c   0x0000002a   Code   RO          505    CL$$btod_ediv       c_w.l(btod.o)
+    0x1a0066a6   0x1a0066a6   0x0000002a   Code   RO          504    CL$$btod_emul       c_w.l(btod.o)
+    0x1a0066d0   0x1a0066d0   0x00000244   Code   RO          510    CL$$btod_mult_common  c_w.l(btod.o)
+    0x1a006914   0x1a006914   0x00000030   Code   RO          543    i.__ARM_fpclassify  m_wm.l(fpclassify.o)
+    0x1a006944   0x1a006944   0x0000000e   Code   RO          405    i._is_digit         c_w.l(__printf_wp.o)
+    0x1a006952   0x1a006952   0x00000002   PAD
+    0x1a006954   0x1a006954   0x0000002c   Code   RO          526    locale$$code        c_w.l(lc_numeric_c.o)
+    0x1a006980   0x1a006980   0x0000002c   Code   RO          555    locale$$code        c_w.l(lc_ctype_c.o)
+    0x1a0069ac   0x1a0069ac   0x0000001a   Code   RO          627    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x1a0069c6   0x1a0069c6   0x00000004   Code   RO          442    x$fpl$printf1       fz_wm.l(printf1.o)
+    0x1a0069ca   0x1a0069ca   0x00000004   Code   RO          444    x$fpl$printf2       fz_wm.l(printf2.o)
+    0x1a0069ce   0x1a0069ce   0x00000000   Code   RO          542    x$fpl$usenofp       fz_wm.l(usenofp.o)
+    0x1a0069ce   0x1a0069ce   0x00000002   PAD
+    0x1a0069d0   0x1a0069d0   0x00000008   Data   RO          364    .constdata          c_w.l(_printf_wctomb.o)
+    0x1a0069d8   0x1a0069d8   0x00000028   Data   RO          393    .constdata          c_w.l(_printf_hex_int_ll_ptr.o)
+    0x1a006a00   0x1a006a00   0x00000011   Data   RO          413    .constdata          c_w.l(__printf_flags_ss_wp.o)
+    0x1a006a11   0x1a006a11   0x00000026   Data   RO          476    .constdata          c_w.l(_printf_fp_hex.o)
+    0x1a006a37   0x1a006a37   0x00000001   PAD
+    0x1a006a38   0x1a006a38   0x00000094   Data   RO          499    .constdata          c_w.l(bigflt0.o)
+    0x1a006acc   0x1a006acc   0x00000012   Data   RO           30    .rodata..L.str      cm4_main.o
+    0x1a006ade   0x1a006ade   0x0000000b   Data   RO           31    .rodata..L.str.1    cm4_main.o
+    0x1a006ae9   0x1a006ae9   0x00000011   Data   RO           33    .rodata..L.str.2    cm4_main.o
+    0x1a006afa   0x1a006afa   0x0000000f   Data   RO           36    .rodata..L.str.3    cm4_main.o
+    0x1a006b09   0x1a006b09   0x00000013   Data   RO           37    .rodata..L.str.4    cm4_main.o
+    0x1a006b1c   0x1a006b1c   0x00000031   Data   RO           38    .rodata..L.str.5    cm4_main.o
+    0x1a006b4d   0x1a006b4d   0x00000003   PAD
+    0x1a006b50   0x1a006b50   0x00000038   Data   RO          219    .rodata.Driver_USART3  usart_lpc43xx.o
+    0x1a006b88   0x1a006b88   0x00001800   Data   RO           24    .rodata.LR0         cm4_main.o
+    0x1a008388   0x1a008388   0x00000068   Data   RO          223    .rodata.USART3_Resources  usart_lpc43xx.o
+    0x1a0083f0   0x1a0083f0   0x00000008   Data   RO          221    .rodata.USART3_pin_rx  usart_lpc43xx.o
+    0x1a0083f8   0x1a0083f8   0x00000008   Data   RO          220    .rodata.USART3_pin_tx  usart_lpc43xx.o
+    0x1a008400   0x1a008400   0x00000010   Data   RO          140    .rodata.cst16       iap_18xx_43xx.o
+    0x1a008410   0x1a008410   0x00000014   Data   RO          319    .rodata.emcdivby2_opc  system_lpc43xx.o
+    0x1a008424   0x1a008424   0x00000120   Data   RO          218    .rodata.fract_div_lookup_table  usart_lpc43xx.o
+    0x1a008544   0x1a008544   0x00000030   Data   RO           39    .rodata.str1.1      cm4_main.o
+    0x1a008574   0x1a008574   0x00000004   Data   RO          224    .rodata.usart_driver_version  usart_lpc43xx.o
+    0x1a008578   0x1a008578   0x00000020   Data   RO          688    Region$$Table       anon$$obj.o
+    0x1a008598   0x1a008598   0x0000001c   Data   RO          525    locale$$data        c_w.l(lc_numeric_c.o)
+    0x1a0085b4   0x1a0085b4   0x00000110   Data   RO          554    locale$$data        c_w.l(lc_ctype_c.o)
 
 
 ==============================================================================
@@ -1954,7 +1953,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1794          0       6321       6144        376      11123   cm4_main.o
+      1840          0       6321       6144        376      11151   cm4_main.o
         54          0          0          0        150       3246   developer_kit_lpc4357_rev_c.o
       1914          0          0          0        168      13845   gpdma_lpc43xx.o
        344          0         16          0          0       3056   iap_18xx_43xx.o
@@ -1966,9 +1965,9 @@ Image component sizes
       9374         52        468          0         52      21804   usart_lpc43xx.o
 
     ----------------------------------------------------------------------
-     18708        114       7628       6156       3836      90544   Object Totals
+     18752        114       7628       6156       3836      90572   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        50          0          3          0         12          0   (incl. Padding)
+        48          0          3          0         12          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -2081,15 +2080,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     26276        384       8180       6156       3932      92640   Grand Totals
-     26276        384       8180       5136       3932      92640   ELF Image Totals (compressed)
-     26276        384       8180       5136          0          0   ROM Totals
+     26320        384       8180       6156       3932      92668   Grand Totals
+     26320        384       8180       5136       3932      92668   ELF Image Totals (compressed)
+     26320        384       8180       5136          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                34456 (  33.65kB)
+    Total RO  Size (Code + RO Data)                34500 (  33.69kB)
     Total RW  Size (RW Data + ZI Data)             10088 (   9.85kB)
-    Total ROM Size (Code + RO Data + RW Data)      39592 (  38.66kB)
+    Total ROM Size (Code + RO Data + RW Data)      39636 (  38.71kB)
 
 ==============================================================================
 

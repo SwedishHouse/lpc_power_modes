@@ -222,16 +222,15 @@ int main()
 	
 	
 	
-	ret_code = Chip_IAP_SetBootFlashBank(IAP_FLASH_BANK_B);
+	ret_code = Chip_IAP_SetBootFlashBank(IAP_FLASH_BANK_A);
 	__enable_irq();
 	NVIC_EnableIRQ(IPC_IRQn);
 	SysTick_Config(SystemCoreClock  / 1000);
 	NVIC_EnableIRQ(SysTick);
 	START_M0();
 	_delay_ms(1000);
-
-	
-	while (1)
+	counter = 0;
+	while (counter < 6)
 	{ 
 		
 		switch(i % 3)
@@ -276,9 +275,30 @@ int main()
 				memcpy(line, msg_m4.data, 50 * sizeof(char));
 				Print_Uart(line);
 			}
-		_delay_ms(800);
+		_delay_ms(500);
 		i++;
 		counter++;
-	}	
+			
+	
+			
+			
+	}	// end while
+	
+	//__disable_irq();
+//	LPC_CGU->BASE_M4_CLK = (0x01 << 11) | (0x01 << 24) ;   // Autoblock Enable, Set clock source to IRC  
+//	LPC_CGU->PLL1_CTRL |= 1;  // Disable PLL1
+//	__ISB();
+//		__DSB();
+//	LPC_CREG->FLASHCFGA |= 0x0000F000;                     // Set maximum wait states for internal flash
+//  LPC_CREG->FLASHCFGB |= 0x0000F000;
+//	__enable_irq();
+	LPC_RGU->RESET_CTRL0 = 0xFFFF & (~(0b11111) | ~(0b11<< 10) | ~(0b11<<14) | ~(0b11<<23) | ~(1<<26) | ~(0b11<< 30));
+	//NVIC_SystemReset();
+	
+	
+	while(1)
+	{
+		
+	}
 
 }

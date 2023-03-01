@@ -16,7 +16,7 @@
  */
 #define CMSIS_device_header "LPC43xx.h"
 
-/* Keil::CMSIS Driver:USART:2.17 */
+/* Keil::CMSIS Driver:USART:2.17.0 */
 #define RTE_Drivers_USART0              /* Driver USART0 */
         #define RTE_Drivers_USART1              /* Driver USART1 */
         #define RTE_Drivers_USART2              /* Driver USART2 */

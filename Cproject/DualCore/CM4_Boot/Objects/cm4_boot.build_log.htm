@@ -22,17 +22,17 @@ Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 D:\GitHub\lpc_power_modes\Cproject\DualCore\CM4_Boot\cm4_boot.uvprojx
-Project File Date:  02/13/2023
+Project File Date:  02/17/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
-Rebuild Project 'cm4_boot' - Target 'Target 1'
-assembling startup_LPC43xx.s...
-compiling SCU_LPC43xx.c...
+Build Project 'cm4_boot' - Target 'Target 1'
 compiling cm4_boot_main.c...
+compiling iap_18xx_43xx.c...
 compiling GPIO_LPC43xx.c...
-compiling system_LPC43xx.c...
+compiling SCU_LPC43xx.c...
 compiling GPDMA_LPC43xx.c...
+compiling system_LPC43xx.c...
 compiling SSP_LPC43xx.c...
 linking...
 Program Size: Code=2960 RO-data=800 RW-data=4 ZI-data=1844  
@@ -49,13 +49,13 @@ Package Vendor: ARM
    * Component: CORE Version: 5.6.0
 
 Package Vendor: Keil
-                http://www.keil.com/pack/Keil.LPC4300_DFP.2.10.0.pack
-                Keil.LPC4300_DFP.2.10.0
+                http://www.keil.com/pack/Keil.LPC4300_DFP.2.10.1.pack
+                Keil.LPC4300_DFP.2.10.1
                 NXP LPC4300 Series Device Support, Drivers and Examples
-   * Component: SSP Version: 2.12
-   * Component: GPDMA Version: 1.6
-   * Component: GPIO Version: 1.1
-   * Component: SCU Version: 1.2
+   * Component: SSP Version: 2.12.0
+   * Component: GPDMA Version: 1.6.0
+   * Component: GPIO Version: 1.1.0
+   * Component: SCU Version: 1.2.0
    * Component: Startup Version: 1.0.0
 
 <h2>Collection of Component include folders:</h2>
@@ -63,8 +63,8 @@ Package Vendor: Keil
   .\RTE\_Target_1
   C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
   C:\Keil_packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Include
-  C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\Device\Include
-  C:\Keil_packs\Keil\LPC4300_DFP\2.10.0\RTE_Driver
+  C:\Keil_packs\Keil\LPC4300_DFP\2.10.1\Device\Include
+  C:\Keil_packs\Keil\LPC4300_DFP\2.10.1\RTE_Driver
 
 <h2>Collection of Component Files used:</h2>
 
@@ -73,28 +73,28 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
 
-   * Component: Keil::CMSIS Driver:SPI:SSP:2.12
+   * Component: Keil::CMSIS Driver:SPI:SSP:2.12.0
       Include file:  RTE_Driver\SSP_LPC43xx.h
       Source file:   RTE_Driver\SSP_LPC43xx.c
 
-   * Component: Keil::Device:GPDMA:1.6
+   * Component: Keil::Device:GPDMA:1.6.0
       Include file:  RTE_Driver\GPDMA_LPC43xx.h
       Source file:   RTE_Driver\GPDMA_LPC43xx.c
 
-   * Component: Keil::Device:GPIO:1.1
-      Source file:   RTE_Driver\GPIO_LPC43xx.c
+   * Component: Keil::Device:GPIO:1.1.0
       Include file:  RTE_Driver\GPIO_LPC43xx.h
+      Source file:   RTE_Driver\GPIO_LPC43xx.c
 
-   * Component: Keil::Device:SCU:1.2
+   * Component: Keil::Device:SCU:1.2.0
       Source file:   RTE_Driver\SCU_LPC43xx.c
       Include file:  RTE_Driver\SCU_LPC43xx.h
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\ARM\startup_LPC43xx.s
       Include file:  RTE_Driver\Config\RTE_Device.h
       Source file:   Device\Source\system_LPC43xx.c
+      Source file:   Device\Source\ARM\startup_LPC43xx.s
       Include file:  Device\Include\LPC43xx.h
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>
